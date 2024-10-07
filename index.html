@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>音乐播放网站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的音乐</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .song-list { margin: 20px; }
+        .song-item { margin-bottom: 10px; cursor: pointer; }
+        .song-item:hover { color: #007BFF; }
+    </style>
 </head>
 <body>
-<h1>我的音乐</h1>
-<div id="song-list"></div>
-<script src="script.js"></script>
+    <h1>我的音乐</h1>
+    <div class="song-list">
+        <!-- 歌曲列表将在这里生成 -->
+    </div>
+    <audio id="audio-player" controls style="width: 100%; margin-top: 20px;"></audio>
+    <script src="script.js"></script>
 </body>
 </html>
