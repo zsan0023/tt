@@ -2,21 +2,34 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的音乐</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        .song-list { margin: 20px; }
-        .song-item { margin-bottom: 10px; cursor: pointer; }
-        .song-item:hover { color: #007BFF; }
-    </style>
+    <title>歌曲播放页面</title>
 </head>
 <body>
-    <h1>我的音乐</h1>
-    <div class="song-list">
-        <!-- 歌曲列表将在这里生成 -->
-    </div>
-    <audio id="audio-player" controls style="width: 100%; margin-top: 20px;"></audio>
-    <script src="script.js"></script>
+    <h1>歌曲列表</h1>
+    <audio controls>
+        <source src="music/单车-陈奕迅.mp3" type="audio/mpeg">
+        <track kind="subtitles" src="music/单车-陈奕迅.lrc" srclang="zh-CN" label="中文歌词">
+    </audio>
+    <br>
+    <audio controls>
+        <source src="music/多远都要在一起-G.E.M.邓紫棋.mp3" type="audio/mpeg">
+        <track kind="subtitles" src="music/多远都要在一起-G.E.M.邓紫棋.lrc" srclang="zh-CN" label="中文歌词">
+    </audio>
+    <br>
+    <audio controls>
+        <source src="music/大鱼-周深.mp3" type="audio/mpeg">
+        <track kind="subtitles" src="music/大鱼-周深.lrc" srclang="zh-CN" label="中文歌词">
+    </audio>
+    <br>
+    <audio controls>
+        <source src="music/当你-林俊杰.mp3" type="audio/mpeg">
+        <track kind="subtitles" src="music/当你-林俊杰.lrc" srclang="zh-CN" label="中文歌词">
+    </audio>
+    <br>
+    <audio controls>
+        <source src="music/稻香-周杰伦.mp3" type="audio/mpeg">
+        <track kind="subtitles" src="music/稻香-周杰伦.lrc" srclang="zh-CN" label="中文歌词">
+    </audio>
+    <br>
 </body>
 </html>
